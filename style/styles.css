@@ -43,17 +43,10 @@ body {
 .back-face {
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
     padding: 20px;
     position: absolute;
     border-radius: 5px;
     background: #1C7CCC;
-=======
-    padding: 18px;
-    position: absolute;
-    border-radius: 5px;
-    background: #157fc4;
->>>>>>> c546b95 (Initial commit)
     backface-visibility: hidden;
 }
 
