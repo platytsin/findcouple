@@ -3,22 +3,23 @@
 }
 
 body {
-    height: 100vh;
-    display: flex;
     background: #fefefe;
 }
 
 .memory-game {
-    width: 640px;
+    width: 840px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .memory-card {
-    width: calc(150px);
-    height: calc(100px);
+    width: calc(200px);
+    height: calc(120px);
     margin: 5px;
     position: relative;
     transform: scale(1);
@@ -38,8 +39,8 @@ body {
 
 .front-face,
 .back-face {
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 120px;
     padding: 2px;
     position: absolute;
     border-radius: 5px;
