@@ -7,7 +7,7 @@ body {
 }
 
 .memory-game {
-    width: 750px;
+    width: 854px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -18,9 +18,9 @@ body {
 }
 
 .memory-card {
-    width: calc(240px);
-    height: calc(130px);
-    margin: 5px;
+    width: calc(280px);
+    height: calc(140px);
+    margin: 2px;
     position: relative;
     transform: scale(1);
     transform-style: preserve-3d;
@@ -39,8 +39,8 @@ body {
 
 .front-face,
 .back-face {
-    width: 240px;
-    height: 130px;
+    width: 280px;
+    height: 140px;
     padding: 2px;
     position: absolute;
     border-radius: 5px;
