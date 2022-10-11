@@ -7,19 +7,18 @@ body {
 }
 
 .memory-game {
-    width: 820px;
-    margin: auto;
+    width: 780px;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
-    
+    margin: 20px auto 30% auto;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 .memory-card {
-    width: calc(400px);
-    height: calc(250px);
+    width: calc(250px);
+    height: calc(135px);
     margin: 5px;
     position: relative;
     transform: scale(1);
@@ -39,8 +38,8 @@ body {
 
 .front-face,
 .back-face {
-    width: 400px;
-    height: 250px;
+    width: 250px;
+    height: 135px;
     padding: 2px;
     position: absolute;
     border-radius: 5px;
@@ -50,4 +49,12 @@ body {
 
 .front-face {
     transform: rotateY(180deg);
+}
+
+.card-footer {
+    flex-shrink: 0;
+}
+
+.navbar {
+    background: #157fc4;
 }
