@@ -7,15 +7,27 @@ body {
 }
 
 .memory-game {
-    width: 780px;
+    width: 1040px;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
     margin: 20px auto 30% auto;
-    padding-top: 50px;
     padding-bottom: 50px;
 }
 
+.logo{
+    text-align: center;
+    margin-top: 50px;
+}
+.hrefs{
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 10px;
+}
+.hrefs a{
+    padding-right: 10px;
+}
 .memory-card {
     width: calc(250px);
     height: calc(135px);
